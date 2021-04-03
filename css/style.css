@@ -435,20 +435,99 @@ nav {
 .info__video__business {
   width: 597px;
   height: 442px;
-  display: block;
-  position: relative;
+  background-image: url(/imagies/media\ bg-cover.png);
   margin-left: 197px;
+  position: relative;
 }
 
 .btn__video {
+  width: 97.6px;
+  height: 98.4px;
   position: absolute;
-  width: 50px;
-  height: 50px;
-  margin-left: 200px;
-  margin-top: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  border-radius: 55%;
+  border: none;
+  cursor: pointer;
+  background-image: url(/imagies/svg/button.button.btn.primary-color.btn-circle.btn-lg.svg);
 }
 
 .info__block-business--punkts {
   width: 324px;
   margin-left: 122px;
+}
+
+.info__block-business--info {
+  margin-bottom: 50px;
+}
+
+.info__block-garant--bussiness {
+  width: 100%;
+  position: relative;
+}
+
+.info__title-garant {
+  width: 277px;
+  margin-left: 80px;
+}
+.info__title-business {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+}
+
+.info__desck-business {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.info__desc-garant {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin-bottom: 5px;
+}
+
+.info__desc-sub--garant {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.title__garant-bg--first::before {
+  content: "";
+  display: block;
+  background-image: url(/imagies/svg/icn\ settings\ .icn-md.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-left: -80px;
+}
+
+.title__garant-bg--second::before {
+  content: "";
+  display: block;
+  background-image: url(/imagies/svg/Vector.svg);
+  width: 33px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-left: -80px;
 }
